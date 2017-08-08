@@ -1,6 +1,7 @@
 package com.example.helloworld;
 
 import designpatterns.observer.custom.WeatherApp;
+import designpatterns.observer.builtin.WeatherApp1;
 import designpatterns.strategy.ducks.DuckSimulator;
 
 public class HelloWorld {
@@ -10,5 +11,6 @@ public class HelloWorld {
         DuckSimulator.strategy();
         System.out.println("|||||||||||||||||||||||||||||||||||||||||||||||||");
         WeatherApp.observer();
+        WeatherApp1.observer();
     }
 }
