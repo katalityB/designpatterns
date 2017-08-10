@@ -5,4 +5,9 @@ public class NYPizza extends Pizza {
         dough = "Tin crust dough";
         sauce = "Marinara Sauce";
     }
+
+    @Override
+    public void cutting() {
+        System.out.println("Cutting pizza into square slices");
+    }
 }

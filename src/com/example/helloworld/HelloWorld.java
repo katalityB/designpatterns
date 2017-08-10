@@ -1,5 +1,6 @@
 package com.example.helloworld;
 
+import designpatterns.factory.pizza.first.PizzaApp;
 import designpatterns.observer.custom.WeatherApp;
 import designpatterns.observer.builtin.WeatherApp1;
 import designpatterns.strategy.ducks.DuckSimulator;
@@ -16,6 +17,6 @@ public class HelloWorld {
         System.out.println("|||||||||||||||||||||||||||||||||||||||||||||||||");
         StarBuzzApp.decorator();
         System.out.println("|||||||||||||||||||||||||||||||||||||||||||||||||");
-        PizzaStore.orderPizza();
+        PizzaApp.orderPizza();
     }
 }
