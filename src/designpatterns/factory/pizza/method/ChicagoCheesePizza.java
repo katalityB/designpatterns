@@ -1,4 +1,4 @@
-package designpatterns.factory.pizza.first;
+package designpatterns.factory.pizza.method;
 
 public class ChicagoCheesePizza extends ChicagoPizza {
     public ChicagoCheesePizza(){

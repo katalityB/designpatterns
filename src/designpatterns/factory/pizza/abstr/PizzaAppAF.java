@@ -1,6 +1,6 @@
-package designpatterns.factory.pizza.first;
+package designpatterns.factory.pizza.abstr;
 
-public class PizzaApp {
+public class PizzaAppAF {
     public static void orderPizza(){
         ChicagoStylePizzaStore chicagoStylePizzaStore = new ChicagoStylePizzaStore();
         chicagoStylePizzaStore.orderPizza("cheese");
